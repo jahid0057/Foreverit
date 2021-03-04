@@ -1,0 +1,43 @@
+@media (min-width:320px) and (max-width:576px){
+    .d-flex {
+        
+        display: block !important;
+    }
+    .header-top {
+       
+        display: none;
+    }
+    a.navbar-brand {
+        width: 40%;
+    }
+    .slide::before {
+        
+        height: 400px;
+    }
+    .slide {
+        height: 400px;
+       
+    }
+    .slide-content p {
+       padding: 0;
+       margin-bottom: 5px;
+       padding: 10px;
+    }
+    .slide-content h1 {
+        font-size: 23px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }    
+    
+a.btn.btn-info.btn-custom {
+    padding: 10px 10px;
+    border-radius: 14px;
+    margin-top: 0px !important;
+}
+.banner-area .owl-carousel{
+    width: 100%;
+    height: 400px;
+}
+    
+}
+
